@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fancy Evernote</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="adapter.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+  <main>
+
+    <div class="sidebar">
+      <h1>Note Preview</h1>
+      <div id="notes-preview">
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="header">
+        <h1 id="logo">Evernote</h1>
+      </div>
+
+      <h1>Note Maker </h1>
+      <form id="my-form">
+        <label for="note-title">Title: </label>
+        <br>
+        <input type="text" id="note-title">
+        <br><br>
+        <label for="note-title">Body: </label>
+        <br>
+        <textarea name="name" id="note-body" rows="4" cols="80"></textarea>
+        <br>
+        <input type="submit" id="submit-button" value="Submit">
+      </form>
+
+      <div class="viewer-holder">
+        <h1>Note Editor</h1>
+          <form id="note-editor">
+            <label for="edit-note-title">Title: </label>
+            <br>
+            <input type="text" id="edit-note-title">
+            <br><br>
+            <label for="edit-note-title">Body: </label>
+            <br>
+            <textarea name="name" id="edit-note-body" rows="4" cols="80"></textarea>
+            <br>
+            <input type="submit" id="edit-button" value="Save Edits">
+          </form>
+      </div>
+
+    </div>
+
+
+  </main>
+  </body>
+</html>
